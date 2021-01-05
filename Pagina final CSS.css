@@ -1,0 +1,43 @@
+
+
+ h1 {background: linear-gradient(90deg,
+    rgba(24, 49, 87, 0.2) 0%, 
+    rgba(61, 139, 255, 0.3) 25%, 
+    rgba(241, 104, 223, 0.4) 75%, 
+    rgba(241, 104, 126, 0.2) 100%);
+   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding: 10px; 
+    color: #000000;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: comfortaa,Verdana, Geneva, Tahoma, sans-serif;
+ }
+body {
+ background:url("https://i.pinimg.com/474x/23/88/a3/2388a37b454a17f703f0689fd89b33e4.jpg"); 
+}
+p.texto1 {
+    font-family: comfortaa,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: rgb(22, 21, 70);
+    font-weight: bold;
+    white-space: pre-wrap;
+    border-style: dashed; border-color: rgb(0, 0, 0) ; border-width: 2px ;
+}
+
+p.texto2 {
+    font-family: comfortaa,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: rgb(22, 21, 70);
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+
+nav ul li {
+    font-size: 17px;
+    font-family: "Press Start 2P";
+}
