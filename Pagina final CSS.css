@@ -1,0 +1,159 @@
+
+
+ h1 {background: linear-gradient(90deg,
+    rgba(24, 49, 87, 0.2) 0%, 
+    rgba(61, 139, 255, 0.3) 25%, 
+    rgba(241, 104, 223, 0.4) 75%, 
+    rgba(241, 104, 126, 0.2) 100%);
+   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding: 10px; 
+    color: #000000;
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: comfortaa,Verdana, Geneva, Tahoma, sans-serif;
+ }
+body {
+ background:url("https://i.pinimg.com/474x/23/88/a3/2388a37b454a17f703f0689fd89b33e4.jpg"); 
+}
+p.texto1 {
+    font-family: comfortaa,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: rgb(22, 21, 70);
+    font-weight: bold;
+    white-space: pre-wrap;
+    padding: 10px;
+    border-style:ridge; border-color: rgb(166, 156, 253) ; border-width: 2px; border-radius: 20px;
+}
+
+.imagen {
+    filter: saturate(600%) ;
+        }
+    
+    #seccion1 {
+        font-family: comfortaa,Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: rgb(22, 21, 70);
+        font-weight: bold;
+        white-space: pre-wrap;
+    }
+    
+    p.texto2 {
+        font-family: comfortaa;
+        font-size: 19px;
+        font-weight: bold;
+        text-shadow: rgb(151, 112, 189) -1px -2px 0.5em
+    }
+
+hr {
+    color: black;
+}
+
+        
+    p.texto3 {
+        font-family: comfortaa;
+        font-size: 17px;
+    }
+
+nav ul li {
+    font-size: 17px;
+    font-family: "Press Start 2P";
+}
+
+nav ol li {
+    font-family: comfortaa;
+    font-size: 17px;
+    font-weight: bolder;
+    color: blanchedalmond;
+background-color: rgb(92, 55, 119); opacity: 0.8;
+}
+/* Como puedo hacer para que la opacidad solo afecte al color violeta y no al texto */ 
+
+@keyframes rainbow { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 25%}
+    100%{background-position:0% 50%}
+}
+
+.seccion3 {
+    font-family: "do hyeon" ;
+    user-select: none;
+    background-image: repeating-linear-gradient(45deg, violet, indigo, rgb(43, 43, 170), green, yellow, orange, rgb(175, 49, 49), violet);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 900% 800%;
+    animation: rainbow 10s ease infinite;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    font-size: 20px;
+}
+
+
+
+
+/* Contenedor general y reset de margin y padding */
+.expandir * {
+    margin: 0;
+    padding: 0;
+    }
+    .expandir {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:normal;
+    height:80px;
+    width:530px;
+    }
+    /* Las imágenes irán en forma de lista */
+    .expandir ul {
+    padding-top:10px;
+    margin-left:5px;
+    }
+    /* Se hacen flotar los elementos para que queden en línea y se elimina el estilo que podría haber predefinido para listas */
+    .expandir ul li {
+    float: left;;
+    list-style-type:none;
+    }
+    /* Anulamos estilo predifinido para enlaces en listas */
+    .expandir ul li a {
+    text-decoration:none;
+    }
+    /* Estilo de cada imagen en situación inicial y transición suave */
+    .expandir ul li a img {
+    width:32px; /* Ancho inicial imagénes. 50% real */
+    height:32px; /* Alto inicial imagénes. 50% real */
+    border:none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+    }
+    /* El texto que acompaña a las imágenes no se ve inicialmente */
+    .expandir ul li a span {
+    display:none;
+    }
+    /* Mostramos el texto al hacer hover */
+    .expandir ul li:hover a span {
+    display:block;
+    font-size:14px;
+    text-align:center;
+    color:#000;
+    }
+    /* Agrandamos la imagen al hacer hover */
+    .expandir ul li:hover a img {
+    width:64px;
+    height:64px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    }
